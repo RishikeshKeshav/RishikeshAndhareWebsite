@@ -54,7 +54,7 @@ const Footer = (): JSX.Element => (
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/projects">Projects</Link>
-        <Link href="mailto:shubhadapaithankar@gmail.com">Contact</Link>
+        <Link href="mailto:rishikeshandhare1301@gmail.com">Contact</Link>
       </Grid>
     </Container>
     <FooterGrid>
@@ -65,7 +65,7 @@ const Footer = (): JSX.Element => (
       ))}
     </FooterGrid>
     <Text margin={0} fontSize="0.9rem" color="rgba(0, 0, 0, 0.7)">
-      © Shubhada Paithankar 2018 → {new Date().getFullYear()}
+      © Rishikesh Andhare 2018 → {new Date().getFullYear()}
     </Text>
   </StyledFooter>
 );

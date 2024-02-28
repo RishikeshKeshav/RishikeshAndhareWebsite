@@ -37,7 +37,7 @@ const Home = (): JSX.Element => (
       <Container maxWidth="700px" gridGap="3rem">
         <Container>
           <Text textAlign="center">
-            I&apos;m a Full Stack Software Engineer with expertise in DevOps, SRE, Software Development and Machine Learning
+            I&apos;m a Full Stack Software Engineer with expertise in Software Development, DevOps, SRE, and Frontend.
           </Text>
         </Container>
         <Link href="/about">
