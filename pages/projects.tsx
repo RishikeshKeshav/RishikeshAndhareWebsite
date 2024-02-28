@@ -5,7 +5,7 @@ import { GetStaticProps } from 'next';
 
 import { Title, Container, Text, Button, Grid, Link, List } from '@components';
 import { getPosts, Post } from '@posts';
-import { backOut } from 'framer-motion';
+// import { backOut } from 'framer-motion';
 
 interface ProjectProps {
   projects: Post[];
