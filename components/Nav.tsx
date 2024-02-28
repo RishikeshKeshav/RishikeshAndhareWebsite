@@ -5,7 +5,7 @@ import Container from './Container';
 import styled from 'styled-components';
 import Menu from '@icons/Menu';
 import Close from '@icons/Close';
-import { CSSProperties } from 'react'; 
+// import { CSSProperties } from 'react'; 
 
 const states: { [key: string]: React.CSSProperties } = {
   '/': {
