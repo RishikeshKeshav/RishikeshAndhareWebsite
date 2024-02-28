@@ -88,7 +88,7 @@ const Nav = ({ isOpen, onOpen, onClose }: NavProps): JSX.Element => {
       justifyContent={['center', 'center', 'space-between']}
       margin="3rem 0"
     >
-      <Container display={['none', 'none', 'flex']}>
+      <Container display={['none', 'none', 'flex']}paddingLeft={4}>
         <NavLink href="/">Rishikesh Andhare</NavLink>
       </Container>
       <MenuContainer display={['flex', 'none', 'none']}>

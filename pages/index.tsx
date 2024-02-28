@@ -6,7 +6,7 @@ import { Container, Title, Button, Grid, Link, Text } from '@components';
 import styles from '@styles/Home.module.css';
 
 const Home = (): JSX.Element => (
-  <Container>
+  <Container paddingLeft={4}>
     <Container
       justifyContent="center"
       alignContent="center"
@@ -15,6 +15,8 @@ const Home = (): JSX.Element => (
       paddingY="25px"
       paddingBottom="40px"
       gridGap="4rem"
+      paddingLeft={4}
+      paddingRight={4}
     >
       <Container alignItems="center" alignContent="center">
         <Image
@@ -30,6 +32,7 @@ const Home = (): JSX.Element => (
           color="rgba(0, 0, 0, 0.6)"
           fontWeight="500"
           as="h2"
+      
         >
          Frontend | React | Java | Spring Boot | Devops/SRE Engineer | AWS | Azure | GCP | Kubernetes | Docker | Jenkins | Terraform | Ansible | Git | Linux
         </Title>
@@ -61,7 +64,7 @@ const Home = (): JSX.Element => (
           justifyItems="stretch"
           alignItems="stretch"
         >
-          <Link href="mailto:shubhadapaithankar@gmail.com">
+          <Link href="mailto:rishikeshandhare1301@gmail.com">
             <Button width="100%">
               <motion.span
                 initial={{ display: 'inline-block' }}

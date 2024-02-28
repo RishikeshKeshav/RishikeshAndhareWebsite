@@ -5,6 +5,7 @@ import { GetStaticProps } from 'next';
 
 import { Title, Container, Text, Button, Grid, Link, List } from '@components';
 import { getPosts, Post } from '@posts';
+import { backOut } from 'framer-motion';
 
 interface ProjectProps {
   projects: Post[];
@@ -39,7 +40,7 @@ const ProjectButton = styled(Button)`
 `;
 
 const Projects = ({ projects }: ProjectProps): JSX.Element => (
-  <Container marginBottom="5rem">
+  <Container marginBottom="5rem" paddingLeft={4} paddingRight={4}>
     <Head>
       <title>Projects</title>
     </Head>
@@ -58,7 +59,7 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
       gridGap="10%"
     >
       {projects.map(({ data }) => (
-        <ProjectContainer
+        <ProjectContainer 
           key={data.slug}
           flexDirection="column"
           alignItems="flex-start"
@@ -66,13 +67,14 @@ const Projects = ({ projects }: ProjectProps): JSX.Element => (
           gridGap="1.5rem"
         >
           <Link href={data.url} width="100%" target="_blank" height="300px">
-            <ProjectImage src={data.preview} />
+            <ProjectImage src={data.preview} style={{border: '2px solid black'}}  />
           </Link>
           <Container
             flexDirection="row"
             justifyContent="space-between"
             alignItems="center"
             width="100%"
+      
           >
             <Link href={data.url} target="_blank">
               <Title fontSize="1rem" as="h2">
