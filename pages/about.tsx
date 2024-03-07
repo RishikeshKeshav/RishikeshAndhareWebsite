@@ -95,7 +95,7 @@ const About = ({experiences}: AboutProps): JSX.Element => (
                 Dev-Ops/SRE Engineer
             </Title>
             <Container maxWidth={['100%', '720px']} marginY="2rem">
-                <Text>I&apos;m a Dev-Ops/SRE Engineer based in San Jose, CA</Text>
+                <Text>I&apos;m a Software Engineer with in depth knolwedge of System Design and Cloud Technlogies based in San Jose, CA</Text>
                 <Text>
                     During my free time I like going gym, doing yoga, and do painting. I
                     also like to learn new technologies and build side projects.
