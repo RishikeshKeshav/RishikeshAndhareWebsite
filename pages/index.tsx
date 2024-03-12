@@ -34,7 +34,7 @@ const Home = (): JSX.Element => (
           as="h2"
       
         >
-         Frontend | React | Java | Spring Boot | Devops/SRE Engineer | AWS | Azure | GCP | Kubernetes | Docker | Jenkins | Terraform | Ansible | Git | Linux
+        Software Development Engineer | Frontend | ReactJS | Java | Spring Boot | Cloud Engineer | AWS  | GCP | Kubernetes | Docker | Jenkins | Terraform | Ansible | Git | Linux
         </Title>
       </Container>
       <Container maxWidth="700px" gridGap="3rem">
