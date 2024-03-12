@@ -92,12 +92,12 @@ const About = ({experiences}: AboutProps): JSX.Element => (
         </Head>
         <Container alignContent="center" alignItems="center">
             <Title fontSize={['3rem', '4rem']} as="h2">
-                Dev-Ops/SRE Engineer
+                Software Development Engineer | Cloud Engineer
             </Title>
             <Container maxWidth={['100%', '720px']} marginY="2rem">
                 <Text>I&apos;m a Software Engineer with in depth knolwedge of System Design and Cloud Technlogies based in San Jose, CA</Text>
                 <Text>
-                    During my free time I like going gym, doing yoga, and do painting. I
+                    During my free time I like going gym, doing reading, and do painting. I
                     also like to learn new technologies and build side projects.
                 </Text>
             </Container>

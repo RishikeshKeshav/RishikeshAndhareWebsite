@@ -40,7 +40,7 @@ const Home = (): JSX.Element => (
       <Container maxWidth="700px" gridGap="3rem">
         <Container>
           <Text textAlign="center">
-            I&apos;m a Full Stack Software Engineer with expertise in Software Development, DevOps, SRE, and Frontend.
+            I&apos;m Experienced Software Development Engineer with 5 years of expertise in crafting innovative solutions. Skilled in full-stack development and cloud technologies, I specialize in delivering scalable software products. I thrive in collaborative environments, translating complex requirements into efficient code to drive impactful projects forward.
           </Text>
         </Container>
         <Link href="/about">
