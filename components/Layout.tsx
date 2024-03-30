@@ -31,12 +31,12 @@ const Layout: React.FC<LayoutProps> = ({
           property="og:description"
           content="I'm a Full Stack developer with experience in DevOps, Backend, Frontend and mobile development."
         />
-        <meta property="og:type" content="website" />
+        {/* <meta property="og:type" content="website" />
         <meta property="twitter:site" content="@shubhadapaitha1" />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary_large_image" /> */}
         <meta
           property="og:image"
-          content="https://shubhadapaithankar.vercel.app/img/preview.webp"
+          content="https://rishikeshandhare.vercel.app/img/preview.webp"
         />
         {/*{process.env.NODE_ENV === 'production' && (*/}
         {/*  <>*/}
