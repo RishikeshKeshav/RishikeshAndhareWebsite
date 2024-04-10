@@ -34,13 +34,13 @@ const Home = (): JSX.Element => (
           as="h2"
       
         >
-        Software Development Engineer | Frontend | ReactJS | Java | Spring Boot | Cloud Engineer | AWS  | GCP | Kubernetes | Docker | Jenkins | Terraform | Ansible | Git | Linux
+        Software Development Engineer | SRE | DevOps | Java | Spring Boot | Cloud Engineer | AWS  | GCP | Kubernetes | Docker | Jenkins | Terraform | Ansible | Git | Linux 
         </Title>
       </Container>
       <Container maxWidth="700px" gridGap="3rem">
         <Container>
           <Text textAlign="center">
-            I&apos;m Experienced Software Development Engineer with 5 years of expertise in crafting innovative solutions. Skilled in full-stack development and cloud technologies, I specialize in delivering scalable software products. I thrive in collaborative environments, translating complex requirements into efficient code to drive impactful projects forward.
+            I&apos;m Experienced Software Development Engineer with 5 years of expertise in crafting innovative solutions. Skilled in Software development and cloud technologies, I specialize in delivering scalable software products. I thrive in collaborative environments, translating complex requirements into efficient code to drive impactful projects forward.
           </Text>
         </Container>
         <Link href="/about">
